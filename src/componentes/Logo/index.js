@@ -4,13 +4,11 @@ import styled from 'styled-components';
 
 const LogoContainer = styled.div`
     display: flex;
-    font-size: 30px;
+    font-size: 50px;
 `
-
 const LogoImage = styled.img`
     margin-right: 10px;
 `
-
 function Logo() {
     return (
         <LogoContainer>
@@ -19,4 +17,4 @@ function Logo() {
     )
 }
 
-export default Logo
+export default Logo;

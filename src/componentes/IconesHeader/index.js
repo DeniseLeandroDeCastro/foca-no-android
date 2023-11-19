@@ -7,12 +7,10 @@ const Icone = styled.li`
   margin-right: 20px;
   width: 25px;
 `
-
 const Icones = styled.ul`
   display: flex;
   align-items: center;
 `
-
 const icones = [perfil, android]
 
 function IconesHeader() {
@@ -25,4 +23,4 @@ function IconesHeader() {
     )
 }
 
-export default IconesHeader
+export default IconesHeader;
